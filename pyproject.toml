@@ -7,7 +7,7 @@ build-backend = "hatchling.build"
 name = "pymol_plotter"
 version = "0.0.1"
 description = "Plot values on structures in pymol"
-requires-python = ">=3.13.2"
+requires-python = ">=3.13.1"
 dependencies = [
   "numpy>=2.4.1",
   "matplotlib>=3.10.8", 
