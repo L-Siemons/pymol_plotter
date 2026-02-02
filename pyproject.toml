@@ -1,0 +1,21 @@
+
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pymol_plotter"
+version = "0.0.1"
+description = "Plot values on structures in pymol"
+requires-python = ">=3.13.2"
+dependencies = [
+  "numpy>=2.4.1",
+  "matplotlib>=3.10.8", 
+  "pandas>=3.0.0"
+  ]
+authors = [
+  {name = "Lucas Siemons"},
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pymol_plotter"]
